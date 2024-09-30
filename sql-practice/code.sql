@@ -17,3 +17,8 @@ SET
 WHERE
     first_name = 'Tyler'
     AND last_name = 'Sky';
+
+update friends set first_name = null where id = 5;
+
+-- no errors
+update friends set first_name = '' where id = 5;
